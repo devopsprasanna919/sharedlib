@@ -1,5 +1,5 @@
 pacakge com.academy.build;
-class Calculator {
+class calculator {
     def jenkins
 Calculator(jenkins) {
     this.jenkins = jenkins
