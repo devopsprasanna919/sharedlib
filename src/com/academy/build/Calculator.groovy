@@ -1,7 +1,7 @@
 pacakge com.academy.build;
 class calculator {
     def jenkins
-Calculator(jenkins) {
+calculator(jenkins) {
     this.jenkins = jenkins
 }
 def add(firstNumber, secondNumber) {
