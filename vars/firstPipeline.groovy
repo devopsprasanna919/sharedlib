@@ -1,4 +1,4 @@
-import com.academy.build.calculator
+import com.academy.build.Calculator
 
 def call (Map pipelineParams){
     Calculator calculator = new Calculator (this)
@@ -39,4 +39,3 @@ def call (Map pipelineParams){
 
     }
 }
-
