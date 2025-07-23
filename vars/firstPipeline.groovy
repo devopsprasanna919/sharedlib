@@ -1,7 +1,7 @@
-import com.academy.build.calculator
+import com.academy.build.Calculator
 
 def call (Map pipelineParams){
-    Calculator calculator = new Calculator(this)
+    Calculator calculator = new Calculator (this)
     pipeline {
         agent {
         label 'jenkinsslave'
@@ -39,3 +39,4 @@ def call (Map pipelineParams){
 
     }
 }
+
