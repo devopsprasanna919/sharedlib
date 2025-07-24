@@ -1,7 +1,7 @@
-import com.academy.build.BuildCalculator
+import com.academy.build.Calculator
 
 def call (Map pipelineParams){
-    BuildCalculator calculator = new BuildCalculator (this)
+    Calculator calculator = new Calculator (this)
     pipeline {
         agent {
         label 'jenkinsslave'
